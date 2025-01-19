@@ -1,10 +1,13 @@
 site_name: Moje projekty
 site_author: Katarzyna Gustak
+site_url: https://katarzynagustak.github.io/ds_ai_portfolio
 site_description: >-
     Portfolio moich wspaniałych projektów z Data Science i AI!
-
+    
 repo_name: KatarzynaGustak/ds_ai_portfolio
 repo_url: https://github.com/KatarzynaGustak/ds_ai_portfolio
+
+
 theme:
   name: material
   palette:

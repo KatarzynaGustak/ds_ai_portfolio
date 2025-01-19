@@ -2,7 +2,7 @@
 
 *30.10.2024*
 
-W projekcie przeprowadziłem analizę danych o pasażerach RMS Titanic, który zatonął 15 kwietnia 1912 roku. Zbiór danych zawiera szczegółowe informacje o pasażerach, takie jak klasa biletu, płeć, wiek, liczba rodzeństwa/małżonków na pokładzie, liczba rodziców/dzieci na pokładzie, cena biletu oraz port zaokrętowania.
+W projekcie przeprowadziłem analizę danych o pasażerach *RMS Titanic*, który zatonął 15 kwietnia 1912 roku. Zbiór danych zawiera szczegółowe informacje o pasażerach, takie jak klasa biletu, płeć, wiek, liczba rodzeństwa/małżonków na pokładzie, liczba rodziców/dzieci na pokładzie, cena biletu oraz port zaokrętowania.
 
 
 Celem analizy było zrozumienie czynników, które mogły wpłynąć na przeżycie pasażerów.
