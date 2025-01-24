@@ -18,6 +18,7 @@ theme:
 nav:
 - Strona Domowa: index.md
 - Obecny projekt:
-  - "Titanic": titanic/index.md
+  - "Daily Lifestyle and Academic Performance of Students": student_lifestyle/index.md
 - Poprzednie projekty:
   - "Iris": iris/index.md
+  - "Titanic": titanic/index.md
