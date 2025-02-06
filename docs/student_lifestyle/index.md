@@ -25,7 +25,7 @@ Increased physical activity correlates with a decrease in socializing time. In t
 The analysis demonstrates that high academic performance is primarily achieved by students dedicating significant time to studying, often at the cost of their health and overall well-being. This raises the question of whether sacrificing physical activity, social interactions, and adequate sleep is worth achieving higher academic results. During this project, I utilized additional Python libraries for data visualization, such as Matplotlib, Plotly and Seaborn, which helped uncover and illustrate complex patterns within the dataset.
 
 
-<a href="Student_lifestyle (1).ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="Student_lifestyle.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
 
 
 <iframe
