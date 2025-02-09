@@ -8,7 +8,7 @@ Projekt ten to eksploracyjna analiza danych na zbiorze danych o Irysach. Jest to
 Był to jeden z moich pierwszych, samodzielnych projektów.
 
 
-Sprawdź, który z analizowanych gatunków Irysów jest największy!
+Sprawdź, który z analizowanych gatunków Irysów jest największy !!
 
 
 <a href="EDA_irysy (6).ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
