@@ -12,11 +12,13 @@
         <meta name="author" content="Katarzyna Gustak">
       
       
-        <link rel="canonical" href="https://katarzynagustak.github.io/ds_ai_portfolio/titanic/">
+        <link rel="canonical" href="https://katarzynagustak.github.io/ds_ai_portfolio/audio_notes/">
       
       
-        <link rel="prev" href="../iris/">
+        <link rel="prev" href="..">
       
+      
+        <link rel="next" href="../student_lifestyle/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +26,7 @@
     
     
       
-        <title>Titanic - Moje projekty</title>
+        <title>Audio Notes Application - Moje projekty</title>
       
     
     
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#eksploracyjna-analiza-danych-titanic" class="md-skip">
+        <a href="#audio-notes-application" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Titanic
+              Audio Notes Application
             
           </span>
         </div>
@@ -245,17 +247,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -270,7 +274,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Obecny projekt
@@ -281,10 +285,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../audio_notes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -294,6 +307,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -310,19 +324,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -337,7 +349,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Poprzednie projekty
@@ -392,19 +404,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../titanic/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -414,7 +417,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -464,33 +466,27 @@
   
 
 
-<h1 id="eksploracyjna-analiza-danych-titanic"><strong><em>Eksploracyjna Analiza Danych - Titanic.</em></strong></h1>
-<p><em>30.10.2024</em></p>
-<p>W projekcie przeprowadziłem analizę danych o pasażerach <em>RMS Titanic</em>, który zatonął 15 kwietnia 1912 roku. Zbiór danych zawiera szczegółowe informacje o pasażerach, takie jak klasa biletu, płeć, wiek, liczba rodzeństwa/małżonków na pokładzie, liczba rodziców/dzieci na pokładzie, cena biletu oraz port zaokrętowania.</p>
-<p>Celem analizy było zrozumienie czynników, które mogły wpłynąć na przeżycie pasażerów.</p>
-<p><em>Podsumowanie:</em>
-Na podstawie analizy danych o pasażerach Titanica można stwierdzić, że kobiety i pasażerowie pierwszej klasy mieli większe szanse na przeżycie katastrofy. Jednocześnie, zbyt mała liczba łodzi ratunkowych oraz ich nierównomierne rozmieszczenie przyczyniły się do tragicznych skutków katastrofy. Analiza danych ujawnia również nieścisłości i błędy w zapisie danych, które mogą wynikać z błędów w systemie rejestracji biletów.</p>
-<p><a href="titanic (2).ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
-<p><iframe
-    id="content"
-    src="titanic.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+<h1 id="audio-notes-application"><strong> <em>Audio Notes Application!</em></strong></h1>
+<p><em>10.02.2025</em></p>
+<p>Audio Notes is a Streamlit-based application that allows users to record voice notes, transcribe them into text, edit the content, and save their notes. 
+All notes are stored in a Qdrant database, enabling fast and semantic search of recordings using OpenAI models. The app leverages the Whisper-1 model for high-quality speech-to-text conversion, while embeddings ensure intelligent content retrieval. The project also utilizes libraries such as Pydub (for audio processing), os, io.BytesIO (for handling binary data), and the md5 function for file integrity verification. 
+Hosted on Streamlit Community Cloud, the app is easily accessible and user-friendly.</p>
+<p><em>Technologies and Tools Used:</em>
+-.Streamlit – framework for building web applications in Python
+-.Pydub – library for audio processing
+-.os, io.BytesIO – handling files and binary data in memory
+-.md5 – file integrity verification
+-.Qdrant – database for storing and searching notes
+-.OpenAI Whisper-1 – model for speech-to-text transcription
+-.OpenAI Embeddings – model for semantic content search
+-.Python – programming language used for the project</p>
+<figure markdown="span">
+  ![Audio Notes](photo_1){ width="300" }
+  <figcaption>Audio Notes</figcaption>
+</figure>
+
+<p><a href="https://audio-notes-app.streamlit.app/">Go to audio notes</a>{ .md-button }</p>
+<p><a href="https://github.com/KatarzynaGustak/wdrazanie_aplikacji_notatki/tree/main">Go to repositories</a>{ .md-button }</p>
 
 
 
