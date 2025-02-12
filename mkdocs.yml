@@ -18,7 +18,8 @@ theme:
 nav:
 - Strona Domowa: index.md
 - Obecny projekt:
-  - "Daily Lifestyle and Academic Performance of Students": student_lifestyle/index.md
+  - "Audio Notes Application": audio_notes/index.md
 - Poprzednie projekty:
+  - "Daily Lifestyle and Academic Performance of Students": student_lifestyle/index.md
   - "Iris": iris/index.md
   - "Titanic": titanic/index.md
