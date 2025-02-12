@@ -13,7 +13,10 @@ theme:
   palette:
     primary: green
 
-  
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption  
 
 nav:
 - Strona Domowa: index.md
