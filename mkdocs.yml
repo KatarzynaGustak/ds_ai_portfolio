@@ -15,8 +15,7 @@ theme:
 
 markdown_extensions:
   - attr_list
-  - md_in_html
-  - pymdownx.blocks.caption  
+  - md_in_html 
 
 nav:
 - Strona Domowa: index.md
