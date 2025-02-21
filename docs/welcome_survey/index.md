@@ -1,6 +1,6 @@
 # ** _Welcome survey - Friends Course App_ **
 
-*20.02.2025*
+*20.01.2025*
 
 Friends Course App is a Streamlit-based app that allows for interactive exploration of data collected from a survey conducted at the beginning of the course. Participants answered questions about motivation for learning, preferred learning methods, and favorite animals, among other things.
 
@@ -12,7 +12,7 @@ The app is hosted on the Streamlit Community Cloud, providing easy access and a 
 
 - Git – version control system,
 
-- Streamlit – Web app framework for Python,
+- Streamlit – framework for building web applications in Python,
 
 - Pandas – Data processing and analysis,
 
