@@ -20,7 +20,7 @@ markdown_extensions:
 nav:
 - Strona Domowa: index.md
 - Obecny projekt:
-  - "Running Predictor – Predictive App for Runners": halfmarathon_time/index.md
+  - "Biegowy Prognozator - Predictive App for Runners": halfmarathon_time/index.md
 - Poprzednie projekty:
   - "Color Your Creative Pattern": coloring_books/index.md
   - "Synergy Squad Application": Synergy_Squad_App/index.md
