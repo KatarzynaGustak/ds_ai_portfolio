@@ -32,10 +32,10 @@ Hosted on Streamlit Community Cloud, the app is easily accessible and user-frien
 
 ![Coloring book](photo_2.png)
 
-![Audio Notes App](photo_3.png)
+![Coloring book](photo_3.png)
 
 
 
-[Go to audio notes](https://coloring-books-app.streamlit.app/){ .md-button }
+[Go to application](https://coloring-books-app.streamlit.app/){ .md-button }
 
 [Go to repositories](https://github.com/KatarzynaGustak/coloring_books){ .md-button }
