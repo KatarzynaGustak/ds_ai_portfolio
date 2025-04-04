@@ -52,6 +52,6 @@ The solution is deployed on DigitalOcean App Platform, with Langfuse integrated 
 
 
 
-[Go to application](jellyfish-app-9aicb.ondigitalocean.app){ .md-button }
+[Go to application](https://halfmarathontime.streamlit.app/){ .md-button }
 
 [Go to repositories](https://github.com/KatarzynaGustak/halfmarthon_time){ .md-button }
