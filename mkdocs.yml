@@ -20,8 +20,9 @@ markdown_extensions:
 nav:
 - Strona Domowa: index.md
 - Obecny projekt:
-  - "Synergy Squad Application": Synergy_Squad_App/index.md
+  - "Color Your Creative Pattern": coloring_books/index.md
 - Poprzednie projekty:
+  - "Synergy Squad Application": Synergy_Squad_App/index.md
   - "Audio Notes Application": audio_notes/index.md
   - "Friends Course Application": welcome_survey/index.md
   - "Daily Lifestyle and Academic Performance of Students": student_lifestyle/index.md
