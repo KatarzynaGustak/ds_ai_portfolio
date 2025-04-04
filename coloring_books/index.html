@@ -12,13 +12,13 @@
         <meta name="author" content="Katarzyna Gustak">
       
       
-        <link rel="canonical" href="https://katarzynagustak.github.io/ds_ai_portfolio/audio_notes/">
+        <link rel="canonical" href="https://katarzynagustak.github.io/ds_ai_portfolio/coloring_books/">
       
       
-        <link rel="prev" href="../Synergy_Squad_App/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../welcome_survey/">
+        <link rel="next" href="../Synergy_Squad_App/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Audio Notes Application - Moje projekty</title>
+        <title>Color Your Creative Pattern - Moje projekty</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#audio-notes-application" class="md-skip">
+        <a href="#color-your-creative-pattern" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Audio Notes Application
+              Color Your Creative Pattern
             
           </span>
         </div>
@@ -247,17 +247,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -272,7 +274,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Obecny projekt
@@ -283,10 +285,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../coloring_books/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -296,6 +307,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -312,19 +324,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -339,7 +349,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Poprzednie projekty
@@ -372,19 +382,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../audio_notes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -394,7 +395,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -532,44 +532,44 @@
   
 
 
-<h1 id="audio-notes-application"><strong> <em>Audio Notes Application!</em></strong></h1>
-<p><em>10.02.2025</em></p>
-<p>Audio Notes is a Streamlit-based application that allows users to record voice notes, transcribe them into text, edit the content, and save their notes. </p>
-<p>All notes are stored in a Qdrant database, enabling fast and semantic search of recordings using OpenAI models. The app leverages the Whisper-1 model for high-quality speech-to-text conversion, while embeddings ensure intelligent content retrieval. The project also utilizes libraries such as Pydub (for audio processing), os, io.BytesIO (for handling binary data), and the md5 function for file integrity verification. </p>
+<h1 id="color-your-creative-pattern"><strong> <em>Color Your Creative Pattern!</em></strong></h1>
+<p><em>30.03.2025</em></p>
+<p>An interactive web application that enables the generation of personalized coloring pages using artificial intelligence. Users can choose the main theme of the coloring page, add their own detailed description, and specify the number of images to generate. </p>
+<p>The generation process works in two stages: first, the GPT-4o language model processes the user input and creates a detailed prompt describing the image content. Then, the DALL·E 3 model transforms that prompt into a black-and-white line drawing styled for coloring. </p>
 <p>Hosted on Streamlit Community Cloud, the app is easily accessible and user-friendly.</p>
 <p><em>Technologies and Tools Used</em>:</p>
 <ul>
 <li>
-<p>Streamlit – framework for building web applications in Python,</p>
+<p>Streamlit – a framework for building interactive web applications in Python,</p>
 </li>
 <li>
-<p>Pydub – library for audio processing,</p>
+<p>Git – version control and deployment,</p>
 </li>
 <li>
-<p>os, io.BytesIO – handling files and binary data in memory,</p>
+<p>Pydantic, dotenv, requests – supporting libraries for validation, configuration, and API handling,</p>
 </li>
 <li>
-<p>md5 – file integrity verification,</p>
+<p>Conda – for environment and dependency management,</p>
 </li>
 <li>
-<p>Qdrant – database for storing and searching notes,</p>
+<p>Visual Studio Code – the development environment,</p>
 </li>
 <li>
-<p>OpenAI Whisper-1 – model for speech-to-text transcription,</p>
+<p>OpenAI DALL·E 3 – an image generation model that creates coloring-style graphics,</p>
 </li>
 <li>
-<p>OpenAI Embeddings – model for semantic content search,</p>
+<p>OpenAI GPT-4o – a language model that generates creative prompts and descriptions,</p>
 </li>
 <li>
 <p>Python – programming language used for the project.</p>
 </li>
 </ul>
 <p><em>Sample photos:</em></p>
-<p><img alt="Audio Notes App" src="photo_1.png" /></p>
-<p><img alt="Audio Notes App" src="photo_2.png" /></p>
+<p><img alt="Coloring book" src="photo_1.png" /></p>
+<p><img alt="Coloring book" src="photo_2.png" /></p>
 <p><img alt="Audio Notes App" src="photo_3.png" /></p>
-<p><a class="md-button" href="https://audio-notes-app.streamlit.app/">Go to audio notes</a></p>
-<p><a class="md-button" href="https://github.com/KatarzynaGustak/wdrazanie_aplikacji_notatki/tree/main">Go to repositories</a></p>
+<p><a class="md-button" href="https://coloring-books-app.streamlit.app/">Go to audio notes</a></p>
+<p><a class="md-button" href="https://github.com/KatarzynaGustak/coloring_books">Go to repositories</a></p>
 
 
 
