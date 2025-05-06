@@ -9,19 +9,28 @@ I am an aspiring Data Scientist and AI Enthusiast with 6 months of practical exp
 I thrive on creating solutions that make a difference, like my Biegowy Prognozator app, which predicts half-marathon times and offers AI-generated training tips.My approach blends curiosity, structure, and creativity. I enjoy building interactive applications that are not only functional but also user-friendly and visually engaging. 
 
 *Technologies & Tools Used*:
+
 - AI & ML: PyCaret, Open AI (GPT-4o, DALL·E 3, Whisper-1), Langfuse
+
 - Data Analysis: Pandas, NumPy, SQL
+
 - Visualization: Matplotlib, Seaborn, Plotly
+
 - Web Development: Streamlit, Python
+
 - Cloud & Deployment: Digital Ocean, AWS (boto3), Git, GitHub
+
 - Other: Jupyter Lab, Microsoft Visual Studio Code, Qdrant, Pydub
+
 
 I'm a fast learner, disciplined, and committed to continuous growth. I'm looking for an opportunity to contribute to real-world AI or data-driven projects — especially in remote and international teams.
 
 ## *Contact.*
 
 Thank you for visiting my portfolio! If you have any questions or would like to share your opinion, please contact me - I will be happy to answer any message. 
-[k.gustak93@gmail.com](mailto:k.gustak93@gmail.com)
+
 📧 Email: [k.gustak93@gmail.com](mailto:k.gustak93@gmail.com)
-🌐 GitHub:[https://github.com/KatarzynaGustak]
-🔗 LinkedIn:[https://www.linkedin.com/in/katarzynagustak/](https://www.linkedin.com/in/katarzynagustak/)]
+
+🌐 GitHub: [https://github.com/KatarzynaGustak](https://github.com/KatarzynaGustak/)
+
+🔗 LinkedIn: [https://www.linkedin.com/in/katarzynagustak/](https://www.linkedin.com/in/katarzynagustak/)
