@@ -12,13 +12,13 @@
         <meta name="author" content="Katarzyna Gustak">
       
       
-        <link rel="canonical" href="https://katarzynagustak.github.io/ds_ai_portfolio/audio_notes/">
+        <link rel="canonical" href="https://katarzynagustak.github.io/ds_ai_portfolio/linguatales/">
       
       
-        <link rel="prev" href="../Synergy_Squad_App/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../welcome_survey/">
+        <link rel="next" href="../halfmarathon_time/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Audio Notes Application - Moje projekty</title>
+        <title>LinguaTales – Learn Languages Through AI-Generated Stories - Moje projekty</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#audio-notes-application" class="md-skip">
+        <a href="#linguatales-learn-languages-through-ai-generated-stories" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Audio Notes Application
+              LinguaTales – Learn Languages Through AI-Generated Stories
             
           </span>
         </div>
@@ -251,18 +251,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -278,7 +280,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Obecny projekt
@@ -289,10 +291,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../linguatales/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -303,6 +314,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -319,20 +331,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -348,7 +358,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Poprzednie projekty
@@ -428,19 +438,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../audio_notes/" class="md-nav__link">
         
   
   
@@ -451,7 +452,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -593,44 +593,48 @@
   
 
 
-<h1 id="audio-notes-application"><strong> <em>Audio Notes Application!</em></strong></h1>
-<p><em>10.02.2025</em></p>
-<p>Audio Notes is a Streamlit-based application that allows users to record voice notes, transcribe them into text, edit the content, and save their notes. </p>
-<p>All notes are stored in a Qdrant database, enabling fast and semantic search of recordings using OpenAI models. The app leverages the Whisper-1 model for high-quality speech-to-text conversion, while embeddings ensure intelligent content retrieval. The project also utilizes libraries such as Pydub (for audio processing), os, io.BytesIO (for handling binary data), and the md5 function for file integrity verification. </p>
-<p>Hosted on Streamlit Community Cloud, the app is easily accessible and user-friendly.</p>
+<h1 id="linguatales-learn-languages-through-ai-generated-stories"><strong> <em>LinguaTales – Learn Languages Through AI-Generated Stories</em></strong></h1>
+<p><em>24.06.2025</em></p>
+<p>LinguaTales is a web application designed for language learners who want to expand their vocabulary and comprehension in English or Spanish through interactive storytelling. </p>
+<p>Users can select a language (English or Spanish) and specify their proficiency level (beginner, intermediate, advanced). The app then generates a unique story tailored to their input using GPT-4o. Additionally, users can listen to an audio version of the story using the TTS-1 model, choosing from a variety of AI voices.</p>
+<p>The app offers customizable topics, vocabulary storage, and the ability to download content. </p>
+<p>Tested in the <em>Intercambio de Idiomas</em>community, LinguaTales has received very positive reviews for its usability and educational value.</p>
 <p><em>Technologies and Tools Used</em>:</p>
 <ul>
 <li>
-<p>Streamlit – framework for building web applications in Python,</p>
+<p>Streamlit – a framework for building interactive web applications in Python,</p>
 </li>
 <li>
-<p>Pydub – library for audio processing,</p>
+<p>Git – version control and deployment,</p>
 </li>
 <li>
-<p>os, io.BytesIO – handling files and binary data in memory,</p>
+<p>Conda – for environment and dependency management,</p>
 </li>
 <li>
-<p>md5 – file integrity verification,</p>
+<p>Visual Studio Code – the development environment,</p>
 </li>
 <li>
-<p>Qdrant – database for storing and searching notes,</p>
+<p>OpenAI GPT-4o –  LLM for generating context-based stories,</p>
 </li>
 <li>
-<p>OpenAI Whisper-1 – model for speech-to-text transcription,</p>
+<p>OpenAI TTS-1 – for converting generated stories into audio with AI voices,</p>
 </li>
 <li>
-<p>OpenAI Embeddings – model for semantic content search,</p>
+<p>Python – programming language used for the project,</p>
 </li>
 <li>
-<p>Python – programming language used for the project.</p>
+<p>DigitalOcean App Platform – hosting environment for deployment,</p>
+</li>
+<li>
+<p>dotenv – environment configuration and API key management.</p>
 </li>
 </ul>
 <p><em>Sample photos:</em></p>
-<p><img alt="Audio Notes App" src="photo_1.png" /></p>
-<p><img alt="Audio Notes App" src="photo_2.png" /></p>
-<p><img alt="Audio Notes App" src="photo_3.png" /></p>
-<p><a class="md-button" href="https://audio-notes-app.streamlit.app/">Go to audio notes</a></p>
-<p><a class="md-button" href="https://github.com/KatarzynaGustak/wdrazanie_aplikacji_notatki/tree/main">Go to repositories</a></p>
+<p><img alt="Predictive App for Runners" src="photo_1.png" /></p>
+<p><img alt="Predictive App for Runners" src="photo_2.png" /></p>
+<p><img alt="Predictive App for Runners" src="photo_3.png" /></p>
+<p><a class="md-button" href="https://lingua-tales.streamlit.app/">Go to application</a></p>
+<p><a class="md-button" href="https://github.com/KatarzynaGustak/Lingua-Tales">Go to repositories</a></p>
 
 
 
