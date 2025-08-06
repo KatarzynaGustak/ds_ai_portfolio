@@ -20,8 +20,9 @@ markdown_extensions:
 nav:
 - Strona Domowa: index.md
 - Obecny projekt:
-  - "Biegowy Prognozator - Predictive App for Runners": halfmarathon_time/index.md
+  - "LinguaTales – Learn Languages Through AI-Generated Stories": linguatales/index.md
 - Poprzednie projekty:
+  - "Biegowy Prognozator - Predictive App for Runners": halfmarathon_time/index.md
   - "Color Your Creative Pattern": coloring_books/index.md
   - "Synergy Squad Application": Synergy_Squad_App/index.md
   - "Audio Notes Application": audio_notes/index.md
